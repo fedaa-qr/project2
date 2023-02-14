@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.photo{
+    background-image: url('../img/net.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.photo header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;  
+}
+.photo header .logo a span{
+    color: crimson;
+}
+.photo header .list ul{
+    list-style: none;
+    font-size: 15px;
+}
+.photo header .list ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.photo header .list ul a{
+    font-weight: bold;
+
+}
+.photo header .list ul a:hover{
+    color: crimson;
+    transition: 0.4s; 
+
+}
+.photo header .subscribe{
+    width: 126px;
+    border-radius: 22px;
+    font-weight: bold;
+    background-color: crimson;
+    padding: 13px 28px;
+   transition: 0.3s 0s ease;
+}
+.photo header .subscribe:hover{
+    transform: scale(1.2);
+}
+.details {
+   position: absolute;
+   top: 50%;
+   left: 6%;
+   transform: translateY(-50%);
+}
+.details .information h4{
+    color: #fcfc;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.details .information h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 5px 0px;
+    color: white;
+}
+.details .information h1 span{ 
+    color: crimson;
+}
+.details .information h3{
+    color: white;
+    margin-top: 10px;
+}
+.form form{
+    margin-top: 25px;
+    position: relative;
+}
+.form form input:first-child{
+    border: 2px solid crimson;
+    border-radius: 12px;
+    width: 316px;
+    height: 40px;
+}
+.form form input:nth-child(2){
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    background-color: crimson;
+    padding: 7px 13px;
+    border-radius: 17px;
+    width: 102px;
+    box-shadow: 0px 0px 25px #ccc,0px 0px 25px #ccc;
+}
+.about{
+    display: flex;
+    padding: 60px 70px;
+    background-color:darkcyan;
+    width: 100%;
+    position: relative;
+}
+.about .img{
+    width: 40%;
+}
+.about .img img{
+    width: 353px;
+    height: 424px;
+}
+.about .contant{
+ width:60% ;
+ position: absolute;
+ top: 102px;
+ left: 484px;
+}
+.about .contant h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
+}
+.about .contant h4{
+    margin: 20px 0px;
+    color: white;
+}
+.about .contant h4 span{
+    color: crimson;
+}
+.about .contant p{
+    line-height: 25px;
+    color:black;
+    padding: 0px 229px 0px 0px;
+}
+.about .contant a{
+    display: block;
+    margin-top: 50px;
+    width: 126px;
+    border-radius: 22px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    padding: 14px 32px;
+   transition: 0.5s 0s ease;
+}
+.about .contant a:hover{
+    background-color: transparent;
+}
+.Services{
+    background-color: black;
+    padding: 45px 40px;
+}
+.Services h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 75px;
+    color: white;
+}
+.Services .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.Services .cards div{
+    background-color: #191919;
+    border-radius: 17px;
+    margin-left: 25px;
+    height: 300px;
+    width: 300px;
+    padding: 30px 44px;
+}
+.Services .cards .c1 .card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Services .cards div i{
+    display: inline-block;
+   /* margin-left: 94px; */
+   color:crimson;
+   font-size: 35px;
+}
+.Services .cards .c1 .card1  h3{
+ color:white;
+ /* margin-left: 26px; */
+}
+.Services .cards .c1 .card1  h4{
+    color: #fcfc;
+    font-weight: normal;
+    /* margin-left: 28px; */
+}
+.Services .cards .c1.card1 h3,h4{
+    /* margin-top: 16px; */
+}
+.Services .cards .c1.card1 a{
+   display: block;
+    width: 132px;
+    border-radius: 22px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    /* padding: 9px 23px; */
+    transition: 0.5s 0s ease;
+    /* margin-top: 10px; */
+    /* margin-left: 46px; */
+
+}
+.Services .cards .c1 .card1 a:hover{
+    background-color: transparent;
+}
+.Services .cards .card2 h3{
+    color:white;
+    margin-left: 26px;
+   }
+   .Services .cards .card2 h4{
+       color: #fcfc;
+       font-weight: normal;
+       margin-left: 28px;
+   }
+   .Services .cards .card2 h3,h4{
+       margin-top: 16px;
+   }
+   .Services .cards .card2 a{
+       display: block;
+       width: 132px;
+       border-radius: 22px;
+       border: 1px solid crimson;
+       background-color: crimson;
+       padding: 9px 23px;
+       transition: 0.5s 0s ease;
+       margin-top: 10px;
+       margin-left: 46px;
+
+   }
+   .Services .cards .card2 a:hover{
+    background-color: transparent;
+}
+   .Services .cards .card3 h3{
+    color:white;
+    margin-left: 26px;
+   }
+   .Services .cards .card3 h4{
+       color: #fcfc;
+       font-weight: normal;
+       margin-left: 28px;
+   }
+   .Services .cards .card3 h3,h4{
+       margin-top: 16px;
+   }
+   .Services .cards .card3 a{
+       display: block;
+       width: 132px;
+       border-radius: 22px;
+       border: 1px solid crimson;
+       background-color: crimson;
+       padding: 9px 23px;
+       transition: 0.5s 0s ease;
+       margin-top: 10px;
+       margin-left: 46px;
+
+   }
+   .Services .cards .card3 a:hover{
+    background-color: transparent;
+}
+.sun{
+    background-color: #191919;
+    padding: 80px 12px;
+    
+}
+.sun a{
+    display: block;
+       width: 130px;
+       border-radius: 22px;
+       border: 1px solid crimson;
+       background-color: crimson;
+       padding: 10px 34px;
+       transition: 0.5s 0s ease;
+       margin-top: 10px;
+       margin-left: 610px;
+   }
+.sun p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.sun a:hover{
+    background-color: transparent;
+}
+footer{
+    background-color:black;
+   padding:  50px 30px;
+}
+footer h1{
+    text-align: center;
+    color: white;
+}
+footer h4{
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+footer .icon{
+    display: flex;
+    justify-content: center;
+}
+footer .icon i{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 23px;
+    color: white;
+    transition: 0.3s 0s ease;
+}
+footer .icon i:hover{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 23px;
+    color: white;
+    transform: scale(1.2);
+}
+footer p{
+    color: crimson;
+    text-align: center;
+    margin-top: 30px;
+
+}
